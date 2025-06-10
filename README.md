@@ -1,18 +1,38 @@
-## Getting Started
+# **Prueba Final Lógica – "Control del Laboratorio"**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+**Contexto:**
 
-The workspace contains two folders by default, where:
+Una universidad desea automatizar el control de temperatura de los equipos de un laboratorio. Se cuenta con una matriz `temperaturas[][]` de 4 filas y 5 columnas, donde cada celda representa la temperatura de un equipo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 📝 **Enunciado:**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Implementa una clase con los siguientes métodos:
 
-## Dependency Management
+1. **`public static int contarTemperaturasAltas(int[][] matriz)`**
+    - Devuelve cuántos equipos superan los **60 grados**.
+2. **`public static double promedioTemperaturasBajas(int[][] matriz)`** (B)
+    - Calcula el promedio de temperaturas **menores a 30 grados**.
+3. **`public static void imprimirTemperaturasPeligrosas(int[][] matriz)`**
+    - Imprime la posición `[fila][columna]` de cada temperatura **mayor a 75 grados** indicando:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+        
+        `"Temperatura crítica en [i][j]: X grados"`.
+        
+4. **`public static int[] equipoMasCaliente(int[][] matriz)`**
+    - Devuelve un arreglo de 2 elementos con la **posición del equipo con mayor temperatura**.
+
+--
+
+### 📌 **Extra (BONUS):**
+
+1. **`public static int contarTemperaturasFueraDeRango(int[][] matriz)`**
+    - Cuenta cuántas temperaturas están **fuera del rango seguro [20, 70]**.
+
+
+
+   public stactic double promedioTemperaturasBajas(int[][] matriz)
+
