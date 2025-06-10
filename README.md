@@ -34,5 +34,4 @@ Implementa una clase con los siguientes métodos:
 
 
 
-   public stactic double promedioTemperaturasBajas(int[][] matriz)
 
